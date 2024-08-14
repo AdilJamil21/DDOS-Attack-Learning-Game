@@ -1,0 +1,863 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.1f1 (f18e0c1b5784) revision 15830540'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22631) 64bit Professional' Language: 'en' Physical Memory: 16255 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2022.3.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+O:/BACKUP/Uni Work/UnityProjects/ddos-prototype
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+51775
+Successfully changed project path to: O:/BACKUP/Uni Work/UnityProjects/ddos-prototype
+O:/BACKUP/Uni Work/UnityProjects/ddos-prototype
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [12192] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 770112455 [EditorId] 770112455 [Version] 1048832 [Id] WindowsEditor(7,B450M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [12192] Host "[IP] 192.168.0.101 [Port] 0 [Flags] 2 [Guid] 770112455 [EditorId] 770112455 [Version] 1048832 [Id] WindowsEditor(7,B450M) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 45.78 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path O:/BACKUP/Uni Work/UnityProjects/ddos-prototype/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Ti (ID=0x2486)
+    Vendor:   NVIDIA
+    VRAM:     8024 MB
+    Driver:   32.0.15.6070
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56584
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008292 seconds.
+- Loaded All Assemblies, in  0.307 seconds
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 242 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.519 seconds
+Domain Reload Profiling: 825ms
+	BeginReloadAssembly (73ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (148ms)
+		LoadAssemblies (72ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (143ms)
+			TypeCache.Refresh (142ms)
+				TypeCache.ScanAssembly (133ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (519ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (473ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (341ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (77ms)
+			ProcessInitializeOnLoadMethodAttributes (50ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\BACKUP\Uni Work\UnityProjects\ddos-prototype\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\BACKUP\Uni Work\UnityProjects\ddos-prototype\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.505 seconds
+Refreshing native plugins compatible for Editor in 2.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.432 seconds
+Domain Reload Profiling: 936ms
+	BeginReloadAssembly (107ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (18ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (34ms)
+	LoadAllAssembliesAndSetupDomain (329ms)
+		LoadAssemblies (188ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (194ms)
+			TypeCache.Refresh (181ms)
+				TypeCache.ScanAssembly (171ms)
+			ScanForSourceGeneratedMonoScriptInfo (9ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (433ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (317ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (28ms)
+			SetLoadedEditorAssemblies (2ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (45ms)
+			ProcessInitializeOnLoadAttributes (221ms)
+			ProcessInitializeOnLoadMethodAttributes (15ms)
+			AfterProcessingInitializeOnLoad (6ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.92 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3022 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (56.3 KB). Loaded Objects now: 3489.
+Memory consumption went from 123.3 MB to 123.3 MB.
+Total: 2.945900 ms (FindLiveObjects: 0.199200 ms CreateObjectMapping: 0.130900 ms MarkObjects: 2.528900 ms  DeleteObjects: 0.086000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AndroidLogcatVideoPlayer.cs: 138f779bba37f053ae0ce30a60592fd3 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTaskResult.cs: bbe8f3e47789974a3230748544655998 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystem.cs: 0727089c78865cfcdefecedc7c7c0f61 -> 
+  custom:scripting/monoscript/fileName/AndroidReceivedNotificationMainThreadDispatcher.cs: 7b856f5a76e3b0232124e0c1e82dbbda -> 
+  custom:scripting/monoscript/fileName/OnLevelUnit.cs: 9fdeb51f65c156710043d64abe7f6c17 -> 
+  custom:scripting/monoscript/fileName/GetThermalMetricUnit.cs: bba5ce8de65ef060088c35c200a4b895 -> 
+  custom:scripting/monoscript/fileName/OnBoostUnit.cs: f2c8b1f521498c0eaae8b328022cc8d8 -> 
+  custom:scripting/monoscript/fileName/AdaptiveLOD.cs: e9dfc62c07420e2aed8ef130e18c48ad -> 
+  custom:scripting/monoscript/fileName/OnBottleneckUnit.cs: b9c4260dcf3a0c26bdad88dabffd4df1 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationSettings.cs: 34adf72a31e1d6fa6f030475c4a762b6 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatStyles.cs: 328901f7ff882ee0a8ba487644476bca -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatProjectSettingsProvider.cs: 47e177b5b5659baeb4aabb6539781f33 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerEditor.cs: 1b51348cf49cef3dfd9312ea99976a71 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatDeviceQuery.cs: 6f7671e49fb6d170e12421ae09b32274 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatBuildInfo.cs: d36174e1bb8933885ddb0c944c18c40e -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoader.cs: 7b6f9d01e651e554be222f57047cbb62 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatEntry.cs: d39af3a88a80167ecb3a0f1fb87c0065 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManager.cs: f4a7c6cfae9c372edccf6d6cc88076e6 -> 
+  custom:scripting/monoscript/fileName/AdaptiveBatching.cs: 32462f311b4dbf5f2b05ab0d66d59fce -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderSettingsEditor.cs: baebdabc6ff1eea002d6134d7cc640d5 -> 
+  custom:scripting/monoscript/fileName/AndroidNotification.cs: b0d0feb261857ffc484033af6e8ee69e -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationCenter.cs: ccd947fd14dd295fb2f259a18bdcfde5 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceKnownPackages.cs: 2c0e6586aa08edcf34a9b530e6d5b653 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AdaptiveTransparency.cs: 101c45f7bb024cc56f4426e2a0a62d0f -> 
+  custom:scripting/monoscript/fileName/ProfilerUtility.cs: 8fd6baaa4a8812aeb14b0e3a857e7749 -> 
+  custom:scripting/monoscript/fileName/ClusterInfo.cs: 3ea6b052a690a346ccea6ba5711ec6da -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatManager.cs: 7d4535f16b64fb7fe8f2ef42fe786fe5 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatInternalLog.cs: b8cdf7bcecf8b820e1d422fc82bba241 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackageInitialization.cs: eb60094d4168727d51b5ad64f934effb -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderSettings.cs: 50fd0f46d158c4bf3e73bb0fb276aa7d -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatConnectToDeviceTask.cs: 638f284c771507871ab93d76e09b4a42 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationCategory.cs: 12729533c6539cbf1e3386d555c9890e -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationPostProcessor.cs: 547c9130a821602623bca3137ac20cf2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatDispatcher.cs: beae000db8002b4c9843a72f1b230077 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatSettings.cs: cb8687d84dc7b88fa5776756f56dc883 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceEventHooks.cs: eb0863d50308d5ecbbdb8fd4db067702 -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowmapResolution.cs: b8bf648d78d2100b583584788c62b506 -> 
+  custom:scripting/monoscript/fileName/IAdaptivePerformance.cs: 592abebb381c23cb1825771e41be316b -> 
+  custom:scripting/monoscript/fileName/AndroidLogcat.cs: 205526712178aefb12d837d60441451a -> 
+  custom:scripting/monoscript/fileName/AdaptiverPerformanceLog.cs: 25f4b63f26c9cb50ec100e9406a7fa53 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceIndexer.cs: 9ee9780b0a9a9c54102984e50c1de333 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationTriggers.cs: a168379682615a7a32694886ad3d1a5a -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatMessageProvider.cs: eb7bb399efd1fff1eb6f711561b5ce67 -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowQuality.cs: a9ecebdd72039dab428c58919ca0c9ea -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowDistance.cs: 0e469edb6ab0c74b06a72ae4424df42d -> 
+  custom:scripting/monoscript/fileName/FPSUnit.cs: 22e770cfd34271d89468f0cdb4f9264b -> 
+  custom:scripting/monoscript/fileName/iOSNotificationsWrapper.cs: f2487c6357040e30357c5dfaf5fe9525 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatCaptureVideo.cs: c23788ed448acababfbb2285cc592e1a -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSupportedBuildTargetAttribute.cs: b55ce1ac25e5b5f0cf6d47ccd6996652 -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowCascade.cs: e721f49f2e73789f28415411cd6a73c8 -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationChannel.cs: 237b9b2f526c7917e30ad7c9f9e6b5ad -> 
+  custom:scripting/monoscript/fileName/AndroidTools.cs: 214b4cb092ffede0be163f7cfe8361ac -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatContextMenu.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderOrderUI.cs: 34ead2fac85a7687e9b2b4e7c479eda7 -> 
+  custom:scripting/monoscript/fileName/GpuTime.cs: 408c5168fe38d6572480f188856d150f -> 
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: 30b00f6fd9acb9931abb13cef51abbae -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettingsPerBuildTarget.cs: 3753b07006e7580366a60035a64414d9 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettings.cs: a1ed3ae1cb8da01d5316326e7ceeafe2 -> 
+  custom:scripting/monoscript/fileName/NotificationSettings.cs: e5864cbc801cf27f3a966885d80a57d4 -> 
+  custom:scripting/monoscript/fileName/NotificationSettingsCollection.cs: 70aa45cf98aaa84cb1342e4f2167138d -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceBuildProcessorHelper.cs: 2e1b1a28a3a4d013ffe5d37ba564cfab -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatCaptureScreenshot.cs: 3ae68faf67d6f507a08fc742d6728501 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/AdaptivePhysics.cs: b6d94f8b5a7e785e5b36f4c9c4b45abf -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatColumnData.cs: 63fdeefc8412eb62a759e3e450e3cb07 -> 
+  custom:scripting/monoscript/fileName/OnPerformanceLevelsUnit.cs: 734ab774cfa8bdd770aa1ad4b4acea51 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatMemoryViewer.cs: d1b48d05cc68b5cabad5b8760e23fc2d -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceUIExtension.cs: bf27f9c2759a33eeac333926103f3b93 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationCenter.cs: 028e9cb29191499c7e43fc2c55dfec16 -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationCallback.cs: 70427cff2e482b53a910a50baf9dc745 -> 
+  custom:scripting/monoscript/fileName/CpuTime.cs: adb828938d2352b1f8f58c79f7cce5fa -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSettingsManager.cs: 303baca7b4d0e33e2861ec4e66796379 -> 
+  custom:scripting/monoscript/fileName/NotificationStyles.cs: 02c219d19d148031ee555e1aa49e5b63 -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderConstants.cs: 63196f4a76fb8885675854009c698aa1 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTagInformation.cs: a627b0c35fc6403a9b031d191707e16b -> 
+  custom:scripting/monoscript/fileName/EnterNamePopup.cs: da7760c1c128bb94a9676f14076ea6d5 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatPackageInformation.cs: 186ce0aef078cb82911486a8aabf5154 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatMessagesViews.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/EditorWorkQueue.cs: 669716655f8b46b426a27eb7c604a17a -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/AutoPerformanceLevelController.cs: db38478e42c3c516a42d537cacb52a98 -> 
+  custom:scripting/monoscript/fileName/AdaptiveFramerate.cs: 1cceb99366a0e9d205eaa5b4dd9b2134 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AdaptiveSorting.cs: 512e1b7598086c090b2ecf38d8f0c4c0 -> 
+  custom:scripting/monoscript/fileName/FrameTimingUnit.cs: d09ad89f9844aeadfaf68b73b37be5d1 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarker3Params.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralBuildProcessor.cs: 55096fe0e1c54ec36986062f3aa7a66f -> 
+  custom:scripting/monoscript/fileName/ProfilerCounterValue.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatAutoScrollInfo.cs: b46ff1f73b6c0eb99953cf8e30265a21 -> 
+  custom:scripting/monoscript/fileName/ProfilerCounter.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AuthorizationRequest.cs: 209fc7fd1b6fbb5dbae4037273d7d153 -> 
+  custom:scripting/monoscript/fileName/SubsystemRegistration.cs: 5e5797a36e40e2f1efc630a0fb8c6cf0 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarkerExtensions.cs: e9eec9a5472d64e0b6699387d0bf6ebd -> 
+  custom:scripting/monoscript/fileName/AdaptiveViewDistance.cs: 6c0015e9d427cf3004d3259807419688 -> 
+  custom:scripting/monoscript/fileName/AndroidMemoryStatistics.cs: c8dd6364e4cc927fb91711356726b32b -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderHelper.cs: fa57e8a0aacf6756eba14595999551ab -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatUtilities.cs: 1500ae31fd86aca5e0f2a28b63874e7e -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationExtensions.cs: e9b2d257479790f67b30a0c7636b6f07 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerSettings.cs: 0a3d542b329c158a69b5de36364d00a2 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatRuntime.cs: c23ad602947592af8383d00a30ba13c2 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceDetailsViewController.cs: b61c78895eb679caa4bb47a966bb5aef -> 
+  custom:scripting/monoscript/fileName/GetBoostUnit.cs: 50bdb9e86fe58514ab4fd42288577925 -> 
+  custom:scripting/monoscript/fileName/IDevelopmentSettings.cs: 2d8fe703b616f9efca324b5f5d0693d4 -> 
+  custom:scripting/monoscript/fileName/RunningAverage.cs: 73c6f2d5c68af1b5c3d611550831b24a -> 
+  custom:scripting/monoscript/fileName/DrawableResourceData.cs: bf4668a20ae16feaa70ecc91b838c7df -> 
+  custom:scripting/monoscript/fileName/TemperatureTrend.cs: 53ab772a6edbd764646698358643fc6a -> 
+  custom:scripting/monoscript/fileName/AdaptiveDecals.cs: f0bedcaa337b2fb4d2cd753fe8b8a7c3 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarker2Params.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationAttachment.cs: 86f84ab698ade2cb335de71cca3e11ec -> 
+  custom:scripting/monoscript/fileName/AdaptiveMSAA.cs: 76ef3a5109c797e5b4123cf0916ee941 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatSymbolList.cs: 97f0a553cf445667718f6c906fcaa6e7 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerModule.cs: 495fc0ebd3fe0c60ec5bbc678c07d4fd -> 
+  custom:scripting/monoscript/fileName/IPerformanceStatus.cs: 8049ea67cb6e6367c9a9f680d775ec81 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackageMetadata.cs: 6e05472e3aa9b850c8ea0609207dafac -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderLoader.cs: dc1e444c6d55b3262a0d030c61434b46 -> 
+  custom:scripting/monoscript/fileName/IDevicePerformanceControl.cs: 1fc0e6664d44619270043683a6bf4ee8 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatScreenCaptureWindow.cs: 1d01a673efb48aff75b82bdba75c4246 -> 
+  custom:scripting/monoscript/fileName/NotificationSetting.cs: e581f5e18ce5d0869fde69cc62394892 -> 
+  custom:scripting/monoscript/fileName/AdaptiveLayerCulling.cs: 923bdfa942436eee828e303c46d5c94e -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConstants.cs: d16f7aecee713227bd2d755390b90894 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatFilterOptions.cs: 846e2d532fdf85532ac76dbbe21d0159 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatUserSettings.cs: 09dfec6dafb9205800a4ac4e39cbe368 -> 
+  custom:scripting/monoscript/fileName/NotificationSettingsProvider.cs: 3207ce1d6d068cf9203c9d95cdd7c17f -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatDevice.cs: 639f84b5b6912bbf895cacbef81b7b3f -> 
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 66f11d48a2b9256936f98d607c04d91b -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceRenderSettings.cs: bff70e7133f1024d7c0d83fe00ad5463 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceBottleneckDetection.cs: bb154de462b8cf6d56edde132643136f -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatStacktraceWindow.cs: e8f4429bfa09e08561dbd128c57f41fd -> 
+  custom:scripting/monoscript/fileName/iOSNotification.cs: ab01f08ee9a02bb8118b0e806f9033ca -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AndroidBridge.cs: 6a91051db088a471ed986454436f2041 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatReordableList.cs: eb634ff4e1fba63b75a082b41c1cd75f -> 
+  custom:scripting/monoscript/fileName/SimulatorAdaptivePerformanceSubsystem.cs: 4e2a0051a2c9df308ea15ee95bbed957 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationAction.cs: a2a24a011da6b4237da6bcecc53906ec -> 
+  custom:scripting/monoscript/fileName/SetPerformanceLevelsUnit.cs: 58401cdfa1bce795e546f759c8906927 -> 
+  custom:scripting/monoscript/fileName/GetIndexerUnit.cs: 281524d97345598bac46fa6afde08878 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackage.cs: a2318c73fa2835eae77d73ec0efcb17b -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfoManager.cs: 90396bfdbde11e24b78d89546aa009e4 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: dfc4edacd1bf129cb247f3ec2bc58338 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatIPWindow.cs: a02671136fc3a3988fa841ab10e8dfc6 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceScaler.cs: 95a323f07da62ef59bc81dad0f0e4bc2 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatCallbacks.cs: f595ad8ec0517767a0e2865f51462d67 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarker1Param.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/NotificationPermission.cs: e67582c1254f1ac7ef2054ad9097e22b -> 
+  custom:scripting/monoscript/fileName/AdaptiveResolution.cs: 224690b5dece539896740a0a0a3e56a8 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfo.cs: 02442e2d355507e81c87cf7e3f19bf35 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationProvider.cs: 9b55fa20133fbff5129037066bc3fb16 -> 
+  custom:scripting/monoscript/fileName/GetPerformanceLevelsUnit.cs: 0056cefbfd4d7555e0a992a4901b0669 -> 
+  custom:scripting/monoscript/fileName/AdaptiveLut.cs: 2da68acd34b47d72ca32efa07a0d3c7f -> 
+  custom:scripting/monoscript/fileName/TextureAssetUtils.cs: 662ce23259e02c9525ae2705b2697116 -> 
+  custom:scripting/monoscript/fileName/DevicePerformanceControl.cs: 492efb7d23549bc1cf98a01073a37eee -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatSettingsProvider.cs: d003d16e9b268af6fb231c20780fd686 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Paths.cs: b554297642474d104a66fa7db8bffcd4 -> 9aa7137ecd81044fb2d16e5bb97b34f4
+  custom:scripting/monoscript/fileName/AndroidLogcatRegexList.cs: 810394ccc9d9933d9523d109b3672590 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTaskInput.cs: 7f70c9952ed64ed6d76f8c5107e1864f -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationIntentData.cs: 0251872d5129aef0c78d3ec18b7fbcf9 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatStatusBar.cs: 7fbbcdd95b9ebefd0680bbce3a787931 -> 
+  custom:scripting/monoscript/fileName/UsageDial.cs: 0600240de106b1ae286f73dcd509b819 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationData.cs: 54d5546f17681ea22d5ca758b2212dee -> 
+  custom:scripting/monoscript/fileName/IAdaptivePerformanceSettings.cs: 99d9ff614bcb5ba41c8ce2c5ccf0b4d8 -> 
+  custom:scripting/monoscript/fileName/SetBoostUnit.cs: c14e3f94f958974f3a18a3621f45e205 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceAnalytics.cs: 571c5d1630717e47c16d422bd3ee23cf -> 
+  custom:scripting/monoscript/fileName/NotificationSettingsManager.cs: 0949d4dd89e4319d984c63f0dbd03700 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTags.cs: 3c14027d9d0ad38a2b377872551d9b6d -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystemDescriptor.cs: 7f97c5ae33eecb599b040e357d157fbe -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceInit.cs: f39513fbfcd176ae0aae0bac66771f72 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerStats.cs: 266eeb23e39c89761110b73324af6e62 -> 
+  custom:scripting/monoscript/fileName/OnThermalMetricUnit.cs: 081b6445024203ac9cac053152708458 -> 
+  custom:scripting/monoscript/fileName/IThermalStatus.cs: 192007087d4968ae687c5e371b74a175 -> 
+  custom:scripting/monoscript/fileName/Shell.cs: d6673e1ce2be2c2665d6f69fcf67ab6f -> 
+  custom:scripting/monoscript/fileName/ProviderSettingsEditor.cs: d9c7a4e898c60b7ca344cda42eeee3ce -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\BACKUP\Uni Work\UnityProjects\ddos-prototype\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\BACKUP\Uni Work\UnityProjects\ddos-prototype\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.561 seconds
+Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.758 seconds
+Domain Reload Profiling: 1318ms
+	BeginReloadAssembly (141ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (31ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (359ms)
+		LoadAssemblies (212ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (221ms)
+			TypeCache.Refresh (215ms)
+				TypeCache.ScanAssembly (204ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (758ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (34ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.0 KB). Loaded Objects now: 3492.
+Memory consumption went from 118.4 MB to 118.4 MB.
+Total: 2.761000 ms (FindLiveObjects: 0.207400 ms CreateObjectMapping: 0.140800 ms MarkObjects: 2.365400 ms  DeleteObjects: 0.046300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AndroidLogcatVideoPlayer.cs: 138f779bba37f053ae0ce30a60592fd3 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTaskResult.cs: bbe8f3e47789974a3230748544655998 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystem.cs: 0727089c78865cfcdefecedc7c7c0f61 -> 
+  custom:scripting/monoscript/fileName/AndroidReceivedNotificationMainThreadDispatcher.cs: 7b856f5a76e3b0232124e0c1e82dbbda -> 
+  custom:scripting/monoscript/fileName/OnLevelUnit.cs: 9fdeb51f65c156710043d64abe7f6c17 -> 
+  custom:scripting/monoscript/fileName/GetThermalMetricUnit.cs: bba5ce8de65ef060088c35c200a4b895 -> 
+  custom:scripting/monoscript/fileName/OnBoostUnit.cs: f2c8b1f521498c0eaae8b328022cc8d8 -> 
+  custom:scripting/monoscript/fileName/AdaptiveLOD.cs: e9dfc62c07420e2aed8ef130e18c48ad -> 
+  custom:scripting/monoscript/fileName/OnBottleneckUnit.cs: b9c4260dcf3a0c26bdad88dabffd4df1 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationSettings.cs: 34adf72a31e1d6fa6f030475c4a762b6 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatStyles.cs: 328901f7ff882ee0a8ba487644476bca -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatProjectSettingsProvider.cs: 47e177b5b5659baeb4aabb6539781f33 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerEditor.cs: 1b51348cf49cef3dfd9312ea99976a71 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatDeviceQuery.cs: 6f7671e49fb6d170e12421ae09b32274 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatBuildInfo.cs: d36174e1bb8933885ddb0c944c18c40e -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoader.cs: 7b6f9d01e651e554be222f57047cbb62 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatEntry.cs: d39af3a88a80167ecb3a0f1fb87c0065 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManager.cs: f4a7c6cfae9c372edccf6d6cc88076e6 -> 
+  custom:scripting/monoscript/fileName/AdaptiveBatching.cs: 32462f311b4dbf5f2b05ab0d66d59fce -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderSettingsEditor.cs: baebdabc6ff1eea002d6134d7cc640d5 -> 
+  custom:scripting/monoscript/fileName/AndroidNotification.cs: b0d0feb261857ffc484033af6e8ee69e -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationCenter.cs: ccd947fd14dd295fb2f259a18bdcfde5 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceKnownPackages.cs: 2c0e6586aa08edcf34a9b530e6d5b653 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AdaptiveTransparency.cs: 101c45f7bb024cc56f4426e2a0a62d0f -> 
+  custom:scripting/monoscript/fileName/ProfilerUtility.cs: 8fd6baaa4a8812aeb14b0e3a857e7749 -> 
+  custom:scripting/monoscript/fileName/ClusterInfo.cs: 3ea6b052a690a346ccea6ba5711ec6da -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatManager.cs: 7d4535f16b64fb7fe8f2ef42fe786fe5 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatInternalLog.cs: b8cdf7bcecf8b820e1d422fc82bba241 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackageInitialization.cs: eb60094d4168727d51b5ad64f934effb -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderSettings.cs: 50fd0f46d158c4bf3e73bb0fb276aa7d -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatConnectToDeviceTask.cs: 638f284c771507871ab93d76e09b4a42 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationCategory.cs: 12729533c6539cbf1e3386d555c9890e -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationPostProcessor.cs: 547c9130a821602623bca3137ac20cf2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatDispatcher.cs: beae000db8002b4c9843a72f1b230077 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatSettings.cs: cb8687d84dc7b88fa5776756f56dc883 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceEventHooks.cs: eb0863d50308d5ecbbdb8fd4db067702 -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowmapResolution.cs: b8bf648d78d2100b583584788c62b506 -> 
+  custom:scripting/monoscript/fileName/IAdaptivePerformance.cs: 592abebb381c23cb1825771e41be316b -> 
+  custom:scripting/monoscript/fileName/AndroidLogcat.cs: 205526712178aefb12d837d60441451a -> 
+  custom:scripting/monoscript/fileName/AdaptiverPerformanceLog.cs: 25f4b63f26c9cb50ec100e9406a7fa53 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceIndexer.cs: 9ee9780b0a9a9c54102984e50c1de333 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationTriggers.cs: a168379682615a7a32694886ad3d1a5a -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatMessageProvider.cs: eb7bb399efd1fff1eb6f711561b5ce67 -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowQuality.cs: a9ecebdd72039dab428c58919ca0c9ea -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowDistance.cs: 0e469edb6ab0c74b06a72ae4424df42d -> 
+  custom:scripting/monoscript/fileName/FPSUnit.cs: 22e770cfd34271d89468f0cdb4f9264b -> 
+  custom:scripting/monoscript/fileName/iOSNotificationsWrapper.cs: f2487c6357040e30357c5dfaf5fe9525 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatCaptureVideo.cs: c23788ed448acababfbb2285cc592e1a -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSupportedBuildTargetAttribute.cs: b55ce1ac25e5b5f0cf6d47ccd6996652 -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowCascade.cs: e721f49f2e73789f28415411cd6a73c8 -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationChannel.cs: 237b9b2f526c7917e30ad7c9f9e6b5ad -> 
+  custom:scripting/monoscript/fileName/AndroidTools.cs: 214b4cb092ffede0be163f7cfe8361ac -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatContextMenu.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderOrderUI.cs: 34ead2fac85a7687e9b2b4e7c479eda7 -> 
+  custom:scripting/monoscript/fileName/GpuTime.cs: 408c5168fe38d6572480f188856d150f -> 
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: 30b00f6fd9acb9931abb13cef51abbae -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettingsPerBuildTarget.cs: 3753b07006e7580366a60035a64414d9 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettings.cs: a1ed3ae1cb8da01d5316326e7ceeafe2 -> 
+  custom:scripting/monoscript/fileName/NotificationSettings.cs: e5864cbc801cf27f3a966885d80a57d4 -> 
+  custom:scripting/monoscript/fileName/NotificationSettingsCollection.cs: 70aa45cf98aaa84cb1342e4f2167138d -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceBuildProcessorHelper.cs: 2e1b1a28a3a4d013ffe5d37ba564cfab -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatCaptureScreenshot.cs: 3ae68faf67d6f507a08fc742d6728501 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/AdaptivePhysics.cs: b6d94f8b5a7e785e5b36f4c9c4b45abf -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatColumnData.cs: 63fdeefc8412eb62a759e3e450e3cb07 -> 
+  custom:scripting/monoscript/fileName/OnPerformanceLevelsUnit.cs: 734ab774cfa8bdd770aa1ad4b4acea51 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatMemoryViewer.cs: d1b48d05cc68b5cabad5b8760e23fc2d -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceUIExtension.cs: bf27f9c2759a33eeac333926103f3b93 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationCenter.cs: 028e9cb29191499c7e43fc2c55dfec16 -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationCallback.cs: 70427cff2e482b53a910a50baf9dc745 -> 
+  custom:scripting/monoscript/fileName/CpuTime.cs: adb828938d2352b1f8f58c79f7cce5fa -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSettingsManager.cs: 303baca7b4d0e33e2861ec4e66796379 -> 
+  custom:scripting/monoscript/fileName/NotificationStyles.cs: 02c219d19d148031ee555e1aa49e5b63 -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderConstants.cs: 63196f4a76fb8885675854009c698aa1 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTagInformation.cs: a627b0c35fc6403a9b031d191707e16b -> 
+  custom:scripting/monoscript/fileName/EnterNamePopup.cs: da7760c1c128bb94a9676f14076ea6d5 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatPackageInformation.cs: 186ce0aef078cb82911486a8aabf5154 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatMessagesViews.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/EditorWorkQueue.cs: 669716655f8b46b426a27eb7c604a17a -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/AutoPerformanceLevelController.cs: db38478e42c3c516a42d537cacb52a98 -> 
+  custom:scripting/monoscript/fileName/AdaptiveFramerate.cs: 1cceb99366a0e9d205eaa5b4dd9b2134 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AdaptiveSorting.cs: 512e1b7598086c090b2ecf38d8f0c4c0 -> 
+  custom:scripting/monoscript/fileName/FrameTimingUnit.cs: d09ad89f9844aeadfaf68b73b37be5d1 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarker3Params.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralBuildProcessor.cs: 55096fe0e1c54ec36986062f3aa7a66f -> 
+  custom:scripting/monoscript/fileName/ProfilerCounterValue.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatAutoScrollInfo.cs: b46ff1f73b6c0eb99953cf8e30265a21 -> 
+  custom:scripting/monoscript/fileName/ProfilerCounter.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AuthorizationRequest.cs: 209fc7fd1b6fbb5dbae4037273d7d153 -> 
+  custom:scripting/monoscript/fileName/SubsystemRegistration.cs: 5e5797a36e40e2f1efc630a0fb8c6cf0 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarkerExtensions.cs: e9eec9a5472d64e0b6699387d0bf6ebd -> 
+  custom:scripting/monoscript/fileName/AdaptiveViewDistance.cs: 6c0015e9d427cf3004d3259807419688 -> 
+  custom:scripting/monoscript/fileName/AndroidMemoryStatistics.cs: c8dd6364e4cc927fb91711356726b32b -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderHelper.cs: fa57e8a0aacf6756eba14595999551ab -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatUtilities.cs: 1500ae31fd86aca5e0f2a28b63874e7e -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationExtensions.cs: e9b2d257479790f67b30a0c7636b6f07 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerSettings.cs: 0a3d542b329c158a69b5de36364d00a2 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatRuntime.cs: c23ad602947592af8383d00a30ba13c2 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceDetailsViewController.cs: b61c78895eb679caa4bb47a966bb5aef -> 
+  custom:scripting/monoscript/fileName/GetBoostUnit.cs: 50bdb9e86fe58514ab4fd42288577925 -> 
+  custom:scripting/monoscript/fileName/IDevelopmentSettings.cs: 2d8fe703b616f9efca324b5f5d0693d4 -> 
+  custom:scripting/monoscript/fileName/RunningAverage.cs: 73c6f2d5c68af1b5c3d611550831b24a -> 
+  custom:scripting/monoscript/fileName/DrawableResourceData.cs: bf4668a20ae16feaa70ecc91b838c7df -> 
+  custom:scripting/monoscript/fileName/TemperatureTrend.cs: 53ab772a6edbd764646698358643fc6a -> 
+  custom:scripting/monoscript/fileName/AdaptiveDecals.cs: f0bedcaa337b2fb4d2cd753fe8b8a7c3 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarker2Params.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationAttachment.cs: 86f84ab698ade2cb335de71cca3e11ec -> 
+  custom:scripting/monoscript/fileName/AdaptiveMSAA.cs: 76ef3a5109c797e5b4123cf0916ee941 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatSymbolList.cs: 97f0a553cf445667718f6c906fcaa6e7 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerModule.cs: 495fc0ebd3fe0c60ec5bbc678c07d4fd -> 
+  custom:scripting/monoscript/fileName/IPerformanceStatus.cs: 8049ea67cb6e6367c9a9f680d775ec81 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackageMetadata.cs: 6e05472e3aa9b850c8ea0609207dafac -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderLoader.cs: dc1e444c6d55b3262a0d030c61434b46 -> 
+  custom:scripting/monoscript/fileName/IDevicePerformanceControl.cs: 1fc0e6664d44619270043683a6bf4ee8 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatScreenCaptureWindow.cs: 1d01a673efb48aff75b82bdba75c4246 -> 
+  custom:scripting/monoscript/fileName/NotificationSetting.cs: e581f5e18ce5d0869fde69cc62394892 -> 
+  custom:scripting/monoscript/fileName/AdaptiveLayerCulling.cs: 923bdfa942436eee828e303c46d5c94e -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConstants.cs: d16f7aecee713227bd2d755390b90894 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatFilterOptions.cs: 846e2d532fdf85532ac76dbbe21d0159 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatUserSettings.cs: 09dfec6dafb9205800a4ac4e39cbe368 -> 
+  custom:scripting/monoscript/fileName/NotificationSettingsProvider.cs: 3207ce1d6d068cf9203c9d95cdd7c17f -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatDevice.cs: 639f84b5b6912bbf895cacbef81b7b3f -> 
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 66f11d48a2b9256936f98d607c04d91b -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceRenderSettings.cs: bff70e7133f1024d7c0d83fe00ad5463 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceBottleneckDetection.cs: bb154de462b8cf6d56edde132643136f -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatStacktraceWindow.cs: e8f4429bfa09e08561dbd128c57f41fd -> 
+  custom:scripting/monoscript/fileName/iOSNotification.cs: ab01f08ee9a02bb8118b0e806f9033ca -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AndroidBridge.cs: 6a91051db088a471ed986454436f2041 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatReordableList.cs: eb634ff4e1fba63b75a082b41c1cd75f -> 
+  custom:scripting/monoscript/fileName/SimulatorAdaptivePerformanceSubsystem.cs: 4e2a0051a2c9df308ea15ee95bbed957 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationAction.cs: a2a24a011da6b4237da6bcecc53906ec -> 
+  custom:scripting/monoscript/fileName/SetPerformanceLevelsUnit.cs: 58401cdfa1bce795e546f759c8906927 -> 
+  custom:scripting/monoscript/fileName/GetIndexerUnit.cs: 281524d97345598bac46fa6afde08878 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackage.cs: a2318c73fa2835eae77d73ec0efcb17b -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfoManager.cs: 90396bfdbde11e24b78d89546aa009e4 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: dfc4edacd1bf129cb247f3ec2bc58338 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatIPWindow.cs: a02671136fc3a3988fa841ab10e8dfc6 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceScaler.cs: 95a323f07da62ef59bc81dad0f0e4bc2 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatCallbacks.cs: f595ad8ec0517767a0e2865f51462d67 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarker1Param.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/NotificationPermission.cs: e67582c1254f1ac7ef2054ad9097e22b -> 
+  custom:scripting/monoscript/fileName/AdaptiveResolution.cs: 224690b5dece539896740a0a0a3e56a8 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfo.cs: 02442e2d355507e81c87cf7e3f19bf35 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationProvider.cs: 9b55fa20133fbff5129037066bc3fb16 -> 
+  custom:scripting/monoscript/fileName/GetPerformanceLevelsUnit.cs: 0056cefbfd4d7555e0a992a4901b0669 -> 
+  custom:scripting/monoscript/fileName/AdaptiveLut.cs: 2da68acd34b47d72ca32efa07a0d3c7f -> 
+  custom:scripting/monoscript/fileName/TextureAssetUtils.cs: 662ce23259e02c9525ae2705b2697116 -> 
+  custom:scripting/monoscript/fileName/DevicePerformanceControl.cs: 492efb7d23549bc1cf98a01073a37eee -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatSettingsProvider.cs: d003d16e9b268af6fb231c20780fd686 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Paths.cs: b554297642474d104a66fa7db8bffcd4 -> 9aa7137ecd81044fb2d16e5bb97b34f4
+  custom:scripting/monoscript/fileName/AndroidLogcatRegexList.cs: 810394ccc9d9933d9523d109b3672590 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTaskInput.cs: 7f70c9952ed64ed6d76f8c5107e1864f -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationIntentData.cs: 0251872d5129aef0c78d3ec18b7fbcf9 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatStatusBar.cs: 7fbbcdd95b9ebefd0680bbce3a787931 -> 
+  custom:scripting/monoscript/fileName/UsageDial.cs: 0600240de106b1ae286f73dcd509b819 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationData.cs: 54d5546f17681ea22d5ca758b2212dee -> 
+  custom:scripting/monoscript/fileName/IAdaptivePerformanceSettings.cs: 99d9ff614bcb5ba41c8ce2c5ccf0b4d8 -> 
+  custom:scripting/monoscript/fileName/SetBoostUnit.cs: c14e3f94f958974f3a18a3621f45e205 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceAnalytics.cs: 571c5d1630717e47c16d422bd3ee23cf -> 
+  custom:scripting/monoscript/fileName/NotificationSettingsManager.cs: 0949d4dd89e4319d984c63f0dbd03700 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTags.cs: 3c14027d9d0ad38a2b377872551d9b6d -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystemDescriptor.cs: 7f97c5ae33eecb599b040e357d157fbe -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceInit.cs: f39513fbfcd176ae0aae0bac66771f72 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerStats.cs: 266eeb23e39c89761110b73324af6e62 -> 
+  custom:scripting/monoscript/fileName/OnThermalMetricUnit.cs: 081b6445024203ac9cac053152708458 -> 
+  custom:scripting/monoscript/fileName/IThermalStatus.cs: 192007087d4968ae687c5e371b74a175 -> 
+  custom:scripting/monoscript/fileName/Shell.cs: d6673e1ce2be2c2665d6f69fcf67ab6f -> 
+  custom:scripting/monoscript/fileName/ProviderSettingsEditor.cs: d9c7a4e898c60b7ca344cda42eeee3ce -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image O:\BACKUP\Uni Work\UnityProjects\ddos-prototype\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image O:\BACKUP\Uni Work\UnityProjects\ddos-prototype\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+- Loaded All Assemblies, in  0.520 seconds
+Refreshing native plugins compatible for Editor in 2.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.728 seconds
+Domain Reload Profiling: 1247ms
+	BeginReloadAssembly (120ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (31ms)
+	LoadAllAssembliesAndSetupDomain (323ms)
+		LoadAssemblies (192ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (188ms)
+			TypeCache.Refresh (185ms)
+				TypeCache.ScanAssembly (176ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (729ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (341ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (3ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (49ms)
+			ProcessInitializeOnLoadAttributes (227ms)
+			ProcessInitializeOnLoadMethodAttributes (21ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 2.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3002 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 21 unused Assets / (30.2 KB). Loaded Objects now: 3495.
+Memory consumption went from 118.4 MB to 118.4 MB.
+Total: 2.666500 ms (FindLiveObjects: 0.208400 ms CreateObjectMapping: 0.087700 ms MarkObjects: 2.327500 ms  DeleteObjects: 0.041800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/AndroidLogcatVideoPlayer.cs: 138f779bba37f053ae0ce30a60592fd3 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTaskResult.cs: bbe8f3e47789974a3230748544655998 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystem.cs: 0727089c78865cfcdefecedc7c7c0f61 -> 
+  custom:scripting/monoscript/fileName/AndroidReceivedNotificationMainThreadDispatcher.cs: 7b856f5a76e3b0232124e0c1e82dbbda -> 
+  custom:scripting/monoscript/fileName/OnLevelUnit.cs: 9fdeb51f65c156710043d64abe7f6c17 -> 
+  custom:scripting/monoscript/fileName/GetThermalMetricUnit.cs: bba5ce8de65ef060088c35c200a4b895 -> 
+  custom:scripting/monoscript/fileName/OnBoostUnit.cs: f2c8b1f521498c0eaae8b328022cc8d8 -> 
+  custom:scripting/monoscript/fileName/AdaptiveLOD.cs: e9dfc62c07420e2aed8ef130e18c48ad -> 
+  custom:scripting/monoscript/fileName/OnBottleneckUnit.cs: b9c4260dcf3a0c26bdad88dabffd4df1 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationSettings.cs: 34adf72a31e1d6fa6f030475c4a762b6 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatStyles.cs: 328901f7ff882ee0a8ba487644476bca -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatProjectSettingsProvider.cs: 47e177b5b5659baeb4aabb6539781f33 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerEditor.cs: 1b51348cf49cef3dfd9312ea99976a71 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatDeviceQuery.cs: 6f7671e49fb6d170e12421ae09b32274 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatBuildInfo.cs: d36174e1bb8933885ddb0c944c18c40e -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoader.cs: 7b6f9d01e651e554be222f57047cbb62 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatEntry.cs: d39af3a88a80167ecb3a0f1fb87c0065 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManager.cs: f4a7c6cfae9c372edccf6d6cc88076e6 -> 
+  custom:scripting/monoscript/fileName/AdaptiveBatching.cs: 32462f311b4dbf5f2b05ab0d66d59fce -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderSettingsEditor.cs: baebdabc6ff1eea002d6134d7cc640d5 -> 
+  custom:scripting/monoscript/fileName/AndroidNotification.cs: b0d0feb261857ffc484033af6e8ee69e -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationCenter.cs: ccd947fd14dd295fb2f259a18bdcfde5 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceKnownPackages.cs: 2c0e6586aa08edcf34a9b530e6d5b653 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/AdaptiveTransparency.cs: 101c45f7bb024cc56f4426e2a0a62d0f -> 
+  custom:scripting/monoscript/fileName/ProfilerUtility.cs: 8fd6baaa4a8812aeb14b0e3a857e7749 -> 
+  custom:scripting/monoscript/fileName/ClusterInfo.cs: 3ea6b052a690a346ccea6ba5711ec6da -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatManager.cs: 7d4535f16b64fb7fe8f2ef42fe786fe5 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatInternalLog.cs: b8cdf7bcecf8b820e1d422fc82bba241 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackageInitialization.cs: eb60094d4168727d51b5ad64f934effb -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderSettings.cs: 50fd0f46d158c4bf3e73bb0fb276aa7d -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatConnectToDeviceTask.cs: 638f284c771507871ab93d76e09b4a42 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationCategory.cs: 12729533c6539cbf1e3386d555c9890e -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationPostProcessor.cs: 547c9130a821602623bca3137ac20cf2 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatDispatcher.cs: beae000db8002b4c9843a72f1b230077 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatSettings.cs: cb8687d84dc7b88fa5776756f56dc883 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceEventHooks.cs: eb0863d50308d5ecbbdb8fd4db067702 -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowmapResolution.cs: b8bf648d78d2100b583584788c62b506 -> 
+  custom:scripting/monoscript/fileName/IAdaptivePerformance.cs: 592abebb381c23cb1825771e41be316b -> 
+  custom:scripting/monoscript/fileName/AndroidLogcat.cs: 205526712178aefb12d837d60441451a -> 
+  custom:scripting/monoscript/fileName/AdaptiverPerformanceLog.cs: 25f4b63f26c9cb50ec100e9406a7fa53 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceIndexer.cs: 9ee9780b0a9a9c54102984e50c1de333 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationTriggers.cs: a168379682615a7a32694886ad3d1a5a -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatMessageProvider.cs: eb7bb399efd1fff1eb6f711561b5ce67 -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowQuality.cs: a9ecebdd72039dab428c58919ca0c9ea -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowDistance.cs: 0e469edb6ab0c74b06a72ae4424df42d -> 
+  custom:scripting/monoscript/fileName/FPSUnit.cs: 22e770cfd34271d89468f0cdb4f9264b -> 
+  custom:scripting/monoscript/fileName/iOSNotificationsWrapper.cs: f2487c6357040e30357c5dfaf5fe9525 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatCaptureVideo.cs: c23788ed448acababfbb2285cc592e1a -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSupportedBuildTargetAttribute.cs: b55ce1ac25e5b5f0cf6d47ccd6996652 -> 
+  custom:scripting/monoscript/fileName/AdaptiveShadowCascade.cs: e721f49f2e73789f28415411cd6a73c8 -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationChannel.cs: 237b9b2f526c7917e30ad7c9f9e6b5ad -> 
+  custom:scripting/monoscript/fileName/AndroidTools.cs: 214b4cb092ffede0be163f7cfe8361ac -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatContextMenu.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderOrderUI.cs: 34ead2fac85a7687e9b2b4e7c479eda7 -> 
+  custom:scripting/monoscript/fileName/GpuTime.cs: 408c5168fe38d6572480f188856d150f -> 
+  custom:scripting/monoscript/fileName/TypeLoaderExtensions.cs: 30b00f6fd9acb9931abb13cef51abbae -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettingsPerBuildTarget.cs: 3753b07006e7580366a60035a64414d9 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralSettings.cs: a1ed3ae1cb8da01d5316326e7ceeafe2 -> 
+  custom:scripting/monoscript/fileName/NotificationSettings.cs: e5864cbc801cf27f3a966885d80a57d4 -> 
+  custom:scripting/monoscript/fileName/NotificationSettingsCollection.cs: 70aa45cf98aaa84cb1342e4f2167138d -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceBuildProcessorHelper.cs: 2e1b1a28a3a4d013ffe5d37ba564cfab -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatCaptureScreenshot.cs: 3ae68faf67d6f507a08fc742d6728501 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/AdaptivePhysics.cs: b6d94f8b5a7e785e5b36f4c9c4b45abf -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatColumnData.cs: 63fdeefc8412eb62a759e3e450e3cb07 -> 
+  custom:scripting/monoscript/fileName/OnPerformanceLevelsUnit.cs: 734ab774cfa8bdd770aa1ad4b4acea51 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatMemoryViewer.cs: d1b48d05cc68b5cabad5b8760e23fc2d -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceUIExtension.cs: bf27f9c2759a33eeac333926103f3b93 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationCenter.cs: 028e9cb29191499c7e43fc2c55dfec16 -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationCallback.cs: 70427cff2e482b53a910a50baf9dc745 -> 
+  custom:scripting/monoscript/fileName/CpuTime.cs: adb828938d2352b1f8f58c79f7cce5fa -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSettingsManager.cs: 303baca7b4d0e33e2861ec4e66796379 -> 
+  custom:scripting/monoscript/fileName/NotificationStyles.cs: 02c219d19d148031ee555e1aa49e5b63 -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderConstants.cs: 63196f4a76fb8885675854009c698aa1 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTagInformation.cs: a627b0c35fc6403a9b031d191707e16b -> 
+  custom:scripting/monoscript/fileName/EnterNamePopup.cs: da7760c1c128bb94a9676f14076ea6d5 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatPackageInformation.cs: 186ce0aef078cb82911486a8aabf5154 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatMessagesViews.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/EditorWorkQueue.cs: 669716655f8b46b426a27eb7c604a17a -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/monoscript/fileName/AutoPerformanceLevelController.cs: db38478e42c3c516a42d537cacb52a98 -> 
+  custom:scripting/monoscript/fileName/AdaptiveFramerate.cs: 1cceb99366a0e9d205eaa5b4dd9b2134 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/AdaptiveSorting.cs: 512e1b7598086c090b2ecf38d8f0c4c0 -> 
+  custom:scripting/monoscript/fileName/FrameTimingUnit.cs: d09ad89f9844aeadfaf68b73b37be5d1 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarker3Params.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceGeneralBuildProcessor.cs: 55096fe0e1c54ec36986062f3aa7a66f -> 
+  custom:scripting/monoscript/fileName/ProfilerCounterValue.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatAutoScrollInfo.cs: b46ff1f73b6c0eb99953cf8e30265a21 -> 
+  custom:scripting/monoscript/fileName/ProfilerCounter.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/AuthorizationRequest.cs: 209fc7fd1b6fbb5dbae4037273d7d153 -> 
+  custom:scripting/monoscript/fileName/SubsystemRegistration.cs: 5e5797a36e40e2f1efc630a0fb8c6cf0 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarkerExtensions.cs: e9eec9a5472d64e0b6699387d0bf6ebd -> 
+  custom:scripting/monoscript/fileName/AdaptiveViewDistance.cs: 6c0015e9d427cf3004d3259807419688 -> 
+  custom:scripting/monoscript/fileName/AndroidMemoryStatistics.cs: c8dd6364e4cc927fb91711356726b32b -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderHelper.cs: fa57e8a0aacf6756eba14595999551ab -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatUtilities.cs: 1500ae31fd86aca5e0f2a28b63874e7e -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationExtensions.cs: e9b2d257479790f67b30a0c7636b6f07 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceManagerSettings.cs: 0a3d542b329c158a69b5de36364d00a2 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatRuntime.cs: c23ad602947592af8383d00a30ba13c2 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceDetailsViewController.cs: b61c78895eb679caa4bb47a966bb5aef -> 
+  custom:scripting/monoscript/fileName/GetBoostUnit.cs: 50bdb9e86fe58514ab4fd42288577925 -> 
+  custom:scripting/monoscript/fileName/IDevelopmentSettings.cs: 2d8fe703b616f9efca324b5f5d0693d4 -> 
+  custom:scripting/monoscript/fileName/RunningAverage.cs: 73c6f2d5c68af1b5c3d611550831b24a -> 
+  custom:scripting/monoscript/fileName/DrawableResourceData.cs: bf4668a20ae16feaa70ecc91b838c7df -> 
+  custom:scripting/monoscript/fileName/TemperatureTrend.cs: 53ab772a6edbd764646698358643fc6a -> 
+  custom:scripting/monoscript/fileName/AdaptiveDecals.cs: f0bedcaa337b2fb4d2cd753fe8b8a7c3 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarker2Params.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationAttachment.cs: 86f84ab698ade2cb335de71cca3e11ec -> 
+  custom:scripting/monoscript/fileName/AdaptiveMSAA.cs: 76ef3a5109c797e5b4123cf0916ee941 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatSymbolList.cs: 97f0a553cf445667718f6c906fcaa6e7 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerModule.cs: 495fc0ebd3fe0c60ec5bbc678c07d4fd -> 
+  custom:scripting/monoscript/fileName/IPerformanceStatus.cs: 8049ea67cb6e6367c9a9f680d775ec81 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackageMetadata.cs: 6e05472e3aa9b850c8ea0609207dafac -> 
+  custom:scripting/monoscript/fileName/SimulatorProviderLoader.cs: dc1e444c6d55b3262a0d030c61434b46 -> 
+  custom:scripting/monoscript/fileName/IDevicePerformanceControl.cs: 1fc0e6664d44619270043683a6bf4ee8 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatScreenCaptureWindow.cs: 1d01a673efb48aff75b82bdba75c4246 -> 
+  custom:scripting/monoscript/fileName/NotificationSetting.cs: e581f5e18ce5d0869fde69cc62394892 -> 
+  custom:scripting/monoscript/fileName/AdaptiveLayerCulling.cs: 923bdfa942436eee828e303c46d5c94e -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConstants.cs: d16f7aecee713227bd2d755390b90894 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatFilterOptions.cs: 846e2d532fdf85532ac76dbbe21d0159 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatUserSettings.cs: 09dfec6dafb9205800a4ac4e39cbe368 -> 
+  custom:scripting/monoscript/fileName/NotificationSettingsProvider.cs: 3207ce1d6d068cf9203c9d95cdd7c17f -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatDevice.cs: 639f84b5b6912bbf895cacbef81b7b3f -> 
+  custom:scripting/monoscript/fileName/BuildHelpers.cs: 66f11d48a2b9256936f98d607c04d91b -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceRenderSettings.cs: bff70e7133f1024d7c0d83fe00ad5463 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceBottleneckDetection.cs: bb154de462b8cf6d56edde132643136f -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatStacktraceWindow.cs: e8f4429bfa09e08561dbd128c57f41fd -> 
+  custom:scripting/monoscript/fileName/iOSNotification.cs: ab01f08ee9a02bb8118b0e806f9033ca -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/AndroidBridge.cs: 6a91051db088a471ed986454436f2041 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatReordableList.cs: eb634ff4e1fba63b75a082b41c1cd75f -> 
+  custom:scripting/monoscript/fileName/SimulatorAdaptivePerformanceSubsystem.cs: 4e2a0051a2c9df308ea15ee95bbed957 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/iOSNotificationAction.cs: a2a24a011da6b4237da6bcecc53906ec -> 
+  custom:scripting/monoscript/fileName/SetPerformanceLevelsUnit.cs: 58401cdfa1bce795e546f759c8906927 -> 
+  custom:scripting/monoscript/fileName/GetIndexerUnit.cs: 281524d97345598bac46fa6afde08878 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformancePackage.cs: a2318c73fa2835eae77d73ec0efcb17b -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfoManager.cs: 90396bfdbde11e24b78d89546aa009e4 -> 
+  custom:scripting/monoscript/fileName/EditorUtilities.cs: dfc4edacd1bf129cb247f3ec2bc58338 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatIPWindow.cs: a02671136fc3a3988fa841ab10e8dfc6 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceScaler.cs: 95a323f07da62ef59bc81dad0f0e4bc2 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatCallbacks.cs: f595ad8ec0517767a0e2865f51462d67 -> 
+  custom:scripting/monoscript/fileName/ProfilerMarker1Param.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/monoscript/fileName/NotificationPermission.cs: e67582c1254f1ac7ef2054ad9097e22b -> 
+  custom:scripting/monoscript/fileName/AdaptiveResolution.cs: 224690b5dece539896740a0a0a3e56a8 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceLoaderInfo.cs: 02442e2d355507e81c87cf7e3f19bf35 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationProvider.cs: 9b55fa20133fbff5129037066bc3fb16 -> 
+  custom:scripting/monoscript/fileName/GetPerformanceLevelsUnit.cs: 0056cefbfd4d7555e0a992a4901b0669 -> 
+  custom:scripting/monoscript/fileName/AdaptiveLut.cs: 2da68acd34b47d72ca32efa07a0d3c7f -> 
+  custom:scripting/monoscript/fileName/TextureAssetUtils.cs: 662ce23259e02c9525ae2705b2697116 -> 
+  custom:scripting/monoscript/fileName/DevicePerformanceControl.cs: 492efb7d23549bc1cf98a01073a37eee -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatSettingsProvider.cs: d003d16e9b268af6fb231c20780fd686 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/Paths.cs: b554297642474d104a66fa7db8bffcd4 -> 9aa7137ecd81044fb2d16e5bb97b34f4
+  custom:scripting/monoscript/fileName/AndroidLogcatRegexList.cs: 810394ccc9d9933d9523d109b3672590 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTaskInput.cs: 7f70c9952ed64ed6d76f8c5107e1864f -> 
+  custom:scripting/monoscript/fileName/AndroidNotificationIntentData.cs: 0251872d5129aef0c78d3ec18b7fbcf9 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatStatusBar.cs: 7fbbcdd95b9ebefd0680bbce3a787931 -> 
+  custom:scripting/monoscript/fileName/UsageDial.cs: 0600240de106b1ae286f73dcd509b819 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceConfigurationData.cs: 54d5546f17681ea22d5ca758b2212dee -> 
+  custom:scripting/monoscript/fileName/IAdaptivePerformanceSettings.cs: 99d9ff614bcb5ba41c8ce2c5ccf0b4d8 -> 
+  custom:scripting/monoscript/fileName/SetBoostUnit.cs: c14e3f94f958974f3a18a3621f45e205 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceAnalytics.cs: 571c5d1630717e47c16d422bd3ee23cf -> 
+  custom:scripting/monoscript/fileName/NotificationSettingsManager.cs: 0949d4dd89e4319d984c63f0dbd03700 -> 
+  custom:scripting/monoscript/fileName/AndroidLogcatTags.cs: 3c14027d9d0ad38a2b377872551d9b6d -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceSubsystemDescriptor.cs: 7f97c5ae33eecb599b040e357d157fbe -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceInit.cs: f39513fbfcd176ae0aae0bac66771f72 -> 
+  custom:scripting/monoscript/fileName/AdaptivePerformanceProfilerStats.cs: 266eeb23e39c89761110b73324af6e62 -> 
+  custom:scripting/monoscript/fileName/OnThermalMetricUnit.cs: 081b6445024203ac9cac053152708458 -> 
+  custom:scripting/monoscript/fileName/IThermalStatus.cs: 192007087d4968ae687c5e371b74a175 -> 
+  custom:scripting/monoscript/fileName/Shell.cs: d6673e1ce2be2c2665d6f69fcf67ab6f -> 
+  custom:scripting/monoscript/fileName/ProviderSettingsEditor.cs: d9c7a4e898c60b7ca344cda42eeee3ce -> 
+========================================================================
+Received Import Request.
+  Time since last request: 4230.404655 seconds.
+  path: Assets/Sound/BREAK.mp3
+  artifactKey: Guid(6d3f7175b98253b44a78d69d4a1ef5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/BREAK.mp3 using Guid(6d3f7175b98253b44a78d69d4a1ef5e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ce5cc332527ab21f02adde6d27fff8f') in 0.088578 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Sound/mouse-click-153941.mp3
+  artifactKey: Guid(cb22c4daa7e155c4d8202a89f802a851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/mouse-click-153941.mp3 using Guid(cb22c4daa7e155c4d8202a89f802a851) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934da766949e4058961a6c5a5deec452') in 0.008442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Sound/gameover-86548.mp3
+  artifactKey: Guid(9744eb8c92253524195b7f3e3129cbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/gameover-86548.mp3 using Guid(9744eb8c92253524195b7f3e3129cbb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27633b3c403577da3903a8ed7c3b42a5') in 0.010385 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/Sound/glass-shattering-and-falling-83039.mp3
+  artifactKey: Guid(c9db09883f1bf8b43b6e8efa35936f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sound/glass-shattering-and-falling-83039.mp3 using Guid(c9db09883f1bf8b43b6e8efa35936f42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23309124a99cc94ac1bf1b5a7fc3a10d') in 0.007213 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
